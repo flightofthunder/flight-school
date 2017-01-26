@@ -16,7 +16,6 @@ RSpec.describe Radar, ".status_for" do
 
     it "has a IATA code" do
       expect(status.code).to eq("JFK")
-    end
 
     it "has a name" do
       expect(status.name).to eq("John F Kennedy International")
